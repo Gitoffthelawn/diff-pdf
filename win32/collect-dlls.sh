@@ -38,3 +38,5 @@ while true ; do
 done
 
 rm -rf $OUTPUT/*.objdeps
+
+strip "$OUTPUT/$(basename "$EXE")"
